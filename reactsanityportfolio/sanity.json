@@ -4,7 +4,7 @@
     "name": "React-Sanity Portfolio"
   },
   "api": {
-    "projectId": "3ee9pg0x",
+    "projectId": "yourprojectId",
     "dataset": "production"
   },
   "plugins": [
