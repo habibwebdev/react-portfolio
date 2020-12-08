@@ -5,7 +5,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)",
   "main": "package.json",
   "author": "Abbas Ali <abbasali211@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "start": "sanity start",
     "test": "sanity check",
