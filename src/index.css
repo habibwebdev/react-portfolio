@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.logo {
+  font-size: 26px;
+  /* font-weight: 200; */
+}
+
 .prose img {
   margin-left: auto;
   margin-right: auto;
