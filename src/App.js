@@ -9,16 +9,18 @@ import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Switch>
-        <Route component={Home} path="/" exact></Route>
-        <Route component={About} path="/about"></Route>
-        <Route component={SinglePost} path="/post/:slug"></Route>
-        <Route component={Blog} path="/blog"></Route>
-        <Route component={Project} path="/projects"></Route>
-      </Switch>
-    </Router>
+    <div className="h-screen overflow-hidden">
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route component={Home} path="/" exact></Route>
+          <Route component={About} path="/about"></Route>
+          <Route component={SinglePost} path="/post/:slug"></Route>
+          <Route component={Blog} path="/blog"></Route>
+          <Route component={Project} path="/projects"></Route>
+        </Switch>
+      </Router>
+    </div>
   )
 }
 

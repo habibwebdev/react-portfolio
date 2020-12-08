@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <nav className="flex items-center p-4">
           <NavLink
-            className="inline-flex item-center mx-4 py-2 px-3 text-green-100 hover:text-green-200 tracking-widest logo"
+            className="inline-flex item-center py-4 mr-14 text-green-100 hover:text-green-200 tracking-widest logo"
             to="/"
             exact
           >
